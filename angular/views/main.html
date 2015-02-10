@@ -1,0 +1,11 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#/">{{model}}</a>
+    </div>
+</nav>
+<div class="jumbotron">
+    <h1>{{model}}</h1>
+    <p>{{model | upCase}}</p>
+    <p><input type="text" class="form-control" placeholder="Model" ng-model="model">
+        <button type="button" class="btn btn-default navbar-btn" ng-click="reset()">{{model}}</button></p>
+</div>
